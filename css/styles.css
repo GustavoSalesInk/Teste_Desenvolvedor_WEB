@@ -1,0 +1,21 @@
+#thumbnail-container{
+	margin-top: 20px;
+}
+
+#cmmts, #dsc{
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+
+@media (min-width: 768px){
+	header nav{
+		margin: 0px auto;
+		padding: 0px 50px;
+	}
+}
+
+@media(max-width: 992px){
+	#categorias{
+		display: none;
+	}
+}

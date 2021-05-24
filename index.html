@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<script src="js/jason.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta charset="utf-8">
+	<title>Loja Virtual</title>
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="images/products-imgs/Union.png">
+					</a>
+					<a class="navbar-brand2" href="#">
+						<img src="images/products-imgs/Audio.png">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a>
+						</li>
+						<li><a href="#">Sair</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="container">
+
+		<div class="col-md-3">
+			<form class="inline-form">
+				<div class="form-group">
+					<div class="input-group">
+					  <input type="text" class="form-control" id="input-buscar" placeholder="O que você está procurando?">
+					  <span class="input-group-btn"><button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button></span>
+					</div>
+				</div>
+			</form>
+			<h4>Categorias</h4>
+			<div class="list-group" id="categorias">
+				<a href="" class="active list-group-item">Todos<span class="badge">3</span></a>
+				<a href="" class="list-group-item">HeadFones<span class="badge">1</span></a>
+				<a href="" class="list-group-item">Cabos<span class="badge">1</span></a>
+				<a href="" class="list-group-item">Outros<span class="badge">1</span></a>
+			</div>
+		</div>
+
+		<div class="col-md-9 col-xs-12">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/carrossel/banner-slider-1.jpg" alt="Image 1">
+				<div class="carousel-caption">
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carrossel/banner-slider-2.jpg" alt="Image 2">
+				<div class="carousel-caption">
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/carrossel/banner-slider-3.jpg" alt="Image 3">
+				<div class="carousel-caption">
+				</div>
+			</div>
+			</div>
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+				</div>
+			<div class="row" id="thumbnail-container">
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<div href="#" class="thumbnail">
+						<img src="images/products-imgs/headsetphone.png" alt="HeadPhone TMA-2">
+						<div class="caption">
+							<h3>TMA-2 HD Whireless</h3>
+							<p>Áudio altamente detalhado
+								A unidade de alto-falante contém um diafragma cultivado com precisão a partir da biocelulose NAC Audio, tornando-o mais rígido, mais leve e mais forte do que as unidades regulares de alto-falantes PET, e permitindo que o diafragma produtor de som vibre sem os níveis de distorção encontrados em outros alto-falantes. 
+								</p>
+							<p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart"></span> $229</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalProduto1">Detalhes</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<div href="#" class="thumbnail">
+						<img src="images/products-imgs/cableUSD.png" alt="C02 - Cable USD 25">
+						<div class="caption">
+							<h3>C02 - Cable USD 25</h3>
+							<p>Cabo de plástico termodo preto de 1,5m enrolado com superfície de toque macio. Estende-se até 3,2m. Perfeito para DJing ou uso de pequeno estúdio. Vem com adaptador de 1/4 a 1/8.</p>
+							<p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart"></span> $49</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Detalhes</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<div href="#" class="thumbnail">
+						<img src="images/products-imgs/ControlWireless.png" alt="Controle Docooler tz02 2.4ghz">
+						<div class="caption">
+							<h3>Controle Docooler tz02 2.4ghz</h3>
+							<p>Este controlador remoto sem fio de 2.4 ghz é projetado especialmente para facilmente controlar a tv inteligente, a caixa de tv android, o computador e mais dispositivos. Plug and play, simples e suave. Ele vai lhe trazer muita conveniência.</p>
+							<p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart"></span> $89</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Detalhes</a></p>
+						</div>
+					</div>
+				</div>
+			<div class="modal fade" id="modalProduto1" tabindex="-1" role="dialog" aria-labelledby="modal1">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="modal1">HeadPhone TMA-2</h4>
+						</div>
+						<div class="modal-body">
+							<div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign"></span> Este produto está esgotado</div>
+							<div class="row">
+								<div class="col-xs-6 col-md-6">
+									<a href="#" class="thumbnail">
+									  <img src="images/products-imgs/headsetphone.png" alt="HeadPhone TMA-2">
+									</a>
+								 </div>
+								 <div class="col-xs-6 col-md-6">
+									<p>Preço:<strong>$229</strong></p>
+									<p>Cassificação:<span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+									</p>
+									<p><span class="label label-warning">FONES</span> <span class="label label-default">AUTO_FALANTES</span></p>
+									<a class="text-primary"><span class="glyphicon glyphicon-heart"></span> Colocar nos seus favoritos</a>
+								 </div>
+							</div>
+							<ul class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#dsc">Descrição</a></li>
+								<li><a data-toggle="tab" href="#cmmts">Comentários</a></li>
+							</ul>
+
+							<div class="tab-content">
+								<div id="dsc" class="tab-pane fade in active">
+									<p>A unidade de alto-falante contém um diafragma cultivado com precisão a partir da biocelulose NAC Audio, tornando-o mais rígido, mais leve e mais forte do que as unidades regulares de alto-falantes PET, e permitindo que o diafragma produtor de som vibre sem os níveis de distorção encontrados em outros alto-falantes.</p>
+								</div>
+								<div id="cmmts" class="tab-pane fade">
+									<div class="panel panel-default">
+									  <div class="panel-heading">Paulo comentou há 2 dias.</div>
+									  <div class="panel-body">
+										O fone é de muita qualidade, irei comprar outro!
+									  </div>
+									</div>
+									<textarea class="form-control" rows="3">Iniciar seu comentario...</textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+							<button id="compra" type="button" class="btn btn-primary">Comprar</button>						
+						</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
